@@ -1,0 +1,9 @@
+.page-content{
+  min-height: calc(100vh - 160px);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: #000;
+  font-weight: 600;
+  font-size: 30px;
+}
