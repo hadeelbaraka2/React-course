@@ -25,3 +25,10 @@ This was resolved by verifying my Docker Hub email and re-running the build comm
 ### Git/GitHub Lesson
 The most important lesson I learned was the importance of clear commit messages and organizing the repository
 structure properly so that any developer can understand and run the project easily.     
+
+## Deployment Notes
+
+- The project was deployed to a production environment using Back4App Containers.
+- Docker was used to build and run the application inside a Node.js (node:18) container.
+- During deployment, the application exposed port 3000 and installed dependencies using npm.
+- A temporary production URL was generated and used to verify that the application is running successfully.
