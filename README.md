@@ -30,3 +30,11 @@ docker stop <container_id>
 ```
 ## Configuration Notes
 	The application runs on port 3000
+
+## production Deployment 
+- Platform: Back4App Containers
+- Deployment Type: Docker Container
+- Node Version: 18
+- Exposed Port: 3000
+- Branch: main
+- production Url : mydashboard-yengzt4v.b4a.run
